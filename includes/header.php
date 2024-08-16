@@ -160,7 +160,7 @@ try {
                 echo '<img src="../img/avatar_p/' . $foto_user . '" alt="' . $foto_user . '" title="' . $foto_user . '" style="width: 40px; border-radius: 100%;">';
             } else {
                 // Exibe a imagem do usuário
-                echo '<img src="../img/' . $foto_user . '" alt="' . $foto_user . '" title="' . $foto_user . '" style="width: 40px; border-radius: 100%;">';
+                echo '<img src="../img/user/' . $foto_user . '" alt="' . $foto_user . '" title="' . $foto_user . '" style="width: 40px; border-radius: 100%;">';
             }
           ?>
         </div>
