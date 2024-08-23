@@ -161,7 +161,7 @@
                           echo '<div class="alert alert-danger alert-dismissible">
                                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                                     <h5><i class="icon fas fa-check"></i> Erro !!!</h5>
-                                    Não foi possível atualizar os dados do contato.
+                                    Não foi possível atualizar os dados.
                                 </div>';
                       }
                   } catch (PDOException $e) {
@@ -209,4 +209,4 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <!-- . -->
+  
